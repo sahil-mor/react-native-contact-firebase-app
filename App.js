@@ -31,18 +31,8 @@ const MainNavigator = createStackNavigator(
 const App = createAppContainer(MainNavigator);
 
 //TODO: Initialize Firebase
-var firebaseConfig = {
-  apiKey: "AIzaSyA-ojkFV0H89sTCdID2Rrd6WPWxa3qOMNY",
-  authDomain: "react-bootcamp-1e7c3.firebaseapp.com",
-  databaseURL: "https://react-bootcamp-1e7c3.firebaseio.com",
-  projectId: "react-bootcamp-1e7c3",
-  storageBucket: "react-bootcamp-1e7c3.appspot.com",
-  messagingSenderId: "490071011495",
-  appId: "1:490071011495:web:a38c38bf15dab5529f6b82",
-  measurementId: "G-LQ1EBRY9BP"
-};
+
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
 //FirebaseTODO create firebase real-time database with rules
 
 // {
